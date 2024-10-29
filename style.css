@@ -1,0 +1,28 @@
+body {
+    font-family: Arial, sans-serif;
+    background-image: linear-gradient(to bottom, #ffcc00, #ff6600, #cc3300);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #fff;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+}
+
+.login-box {
+    max-width: 400px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    background-color: rgba(0, 0, 0, 0.7);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.loading-gif {
+    width: 80%; /* Atur ukuran GIF sesuai kebutuhan */
+    height: auto; /* Menjaga proporsi GIF */
+    margin-bottom: 20px;
+}
